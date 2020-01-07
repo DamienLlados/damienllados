@@ -1,0 +1,89 @@
+body{
+    /* background-image: url("/images/background.png"); */
+    background-color: white;
+}
+textarea{
+    display: block;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    resize: none;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    border: 1px solid black;
+}
+/* button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+p{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .global{
+    border: 3px solid grey;
+} */
+.portfolio img{
+    position: center;
+    height: 90%;
+    /* border: 1px solid black; */
+}
+/* .border-top-grey{
+    border-width: 2px;
+    border-top: 3px solid grey;
+} */
+/* .border-for-middle{
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+} */
+/* .border-left-grey{
+    border-left: 3px solid grey;
+} */
+.margin-top{
+    margin-top: 80px;
+}
+.small-marge{
+    margin-top: 30px;
+}
+.small-marge-down{
+    margin-bottom: 30px;
+}
+.tiny-marge{
+    margin-top: 10px;
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+/* .slideshow {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+ 
+ .slideshow ul {
+    width: 200%;
+    height: 100%;
+    padding:0; margin:0;
+    list-style: none;
+}
+ .slideshow li {
+    float: left;
+} */

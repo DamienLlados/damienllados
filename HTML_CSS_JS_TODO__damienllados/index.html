@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do DADA</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <h1>TODO DADA</h1>
+        <div class="confirm-popup">
+            <h3>Supprimer ?</h3>
+            <button onclick="deleteTodo();">HAI</button>
+            <button onclick="closePopup();">IIE</button>
+        </div>
+
+        <div class="form-add-todo">
+            <form id="formAddTodos" action="#">
+                <input id="nomTodos" name="nomTodos" type="text">
+                <input id="confirmationAjoutTodos" type="submit" value="Ajouter">
+            </form>
+        </div>
+        <div id="todos" class="todos"></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="js/listeTache.js"></script>
+</body>
+</html>
